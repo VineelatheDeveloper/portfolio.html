@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5bf98c2bce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img class="logo" src="logo.png" alt="not found" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home </a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#portfolio">Portfolio </a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>Hi,I'm <span>Vineela </span>Yalamanchili</h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="about-col-1">
+                    <img src="" alt="">
+                </div> -->
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a Fullstack web developer . Check out some of my work in the
+              Projects section. Skilled in HTML, CSS, JavaScript, MySQL,
+              ReactJS, Java and Springboot. I'm open to Job opportunities where
+              I can contribute, learn and grow. If you have a good opportunity
+              that matches my skills and experience then don't hesitate to
+              contact me.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links active-link" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Front-end</span><br />Designing Web</li>
+                <li>
+                  <span>Java,NodeJs</span><br />WebApp development/App
+                  interfaces
+                </li>
+                <li><span>Database</span> <br />SQL</li>
+                <li><span>Database</span> <br />MongoDB</li>
+                <li>
+                  <span>JavaScript,ReactJS</span> <br />
+                  Developer
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="experience">
+              <ul>
+                <li>
+                  Working as support web-developer in Shaya Polymers Pvt Ltd
+                  Bangalore since <span>2019</span> till date
+                </li>
+                <li>
+                  Worked as accounts manager For own Business Venture Andhra
+                  kitchen Bangalore <span>(2016 2019).</span>
+                </li>
+                <li>
+                  Worked as Voice of Customer(VOC) in Apollo Hospitals
+                  Visakhapatnam <span>(2015-2016).</span>
+                </li>
+                <li>
+                  Worked as Quality Control Analyst in Divis Laboratories
+                  Visakhapatnam <span>(2012-2014)</span>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span>Degree</span> <br />
+                  BSC(Bio-science) Aditya Degree College, Visakhapatnam.
+                </li>
+                <li>
+                  <span>Intermediate </span> <br />MPC Narayana Junior
+                  College,Visakhapatnam.
+                </li>
+                <li>
+                  <span>10th</span> <br />
+                  ICSE Fort Catholic Girls School,Visakhapatnam.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------services----------- -->
+    <div id="projects">
+      <h1 class="sub-title">My Services</h1>
+      <div class="project-list">
+        <div>
+          <h2>Html Projects</h2>
+          <br />
+          <h2>Webpage Designing for the training institute</h2>
+          <p>The web page of the institute</p>
+          <a href="#"
+            >https://github.com/VineelatheDeveloper/NaownTechnologies.github.io</a
+          >
+          <h2>Currency converter</h2>
+          <p>currency convrting from one typr to another</p>
+          <a href="#"
+            >https://github.com/VineelatheDeveloper/currencyconverter.js</a
+          >
+          <h2>Parking Fee calculator</h2>
+          <p>
+            calculating of the parking fee for different vehicles that are
+            parked in the mall according to the timings
+          </p>
+          <a href="#"
+            >https://github.com/VineelatheDeveloper/parkingfeecalculator.html</a
+          >
+          <h2>Clock</h2>
+          <p>live time will be shown with Am & Pm</p>
+          <a href="#">https://github.com/VineelatheDeveloper/clock.js</a>
+          <h2>Application Form</h2>
+          <p>
+            An application form where we should enter the required fields and
+            then it redirects to the different pages and details about the
+            courses
+          </p>
+          <a href="#">https://vineelathedeveloper.github.io/form.html/</a>
+        </div>
+        <div>
+          <h2>Javascript Projects</h2>
+          <br />
+          <h2>calculator</h2>
+          <p>a basic calculator with handling errors</p>
+          <a href="#">https://vineelathedeveloper.github.io/Calculator.js/</a>
+          <h2>Shopping Cart</h2>
+          <p>Dynamic shopping cart app where we can add item and delete item</p>
+          <a href="#">https://vineelathedeveloper.github.io/shoppingcart.js/</a>
+        </div>
+      </div>
+    </div>
+    <!-- --------------portfolio------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">MY Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="mobile.cms" alt="not found" />
+            <div class="layer">
+              <h3>Project Work</h3>
+              <p>
+                Shaya Polymers Pvt Ltd 2018-Till date Project: Distribution
+                Management Software Application Description: This software
+                application was built for a leading manufacturing company to
+                ease in handling their sales distribution and supply chain
+                management. Role: Html & CSS Web Application Key
+                Responsibilities: Code for website Ensuring cross-platform
+                functionality Implement CSS Take direction and work well with
+                multiple teams Quickly learn and adapt to content management
+                systems Prioritize to meet deadlines in a fast-paced environment
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ---------------contact-------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-regular fa-envelope"></i>vineela.amirineni@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9603106106</p>
+            <div class="social-icons">
+              <a href=" "><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/vineela-yalamanchili-641077282/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3ByxxVuW7fRxmZdgTsMgcBgw%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            </div>
+<a href="Vineela Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+            <div class="contact-right">
+              <form >
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2  ">Submit</button> 
+              </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright @ Vineela. Made <i class="fa-solid fa-heart"></i> this portfolio</p>
+
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right ="-200px";
+      }
+
+    </script>
+    <script>
+      const scriptURL = '<SCRIPT URL>'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
